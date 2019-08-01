@@ -1,8 +1,8 @@
 {
-    "usageCount": 70, 
+    "usageCount": 21, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "home", 
+    "description": "Finder-up", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -23,7 +23,7 @@
     "showInTrayMenu": false, 
     "matchCase": false, 
     "filter": {
-        "regex": "^((?!Thunar|nautilus).)*$", 
+        "regex": "Thunar|nautilus", 
         "isRecursive": false
     }, 
     "type": "phrase", 

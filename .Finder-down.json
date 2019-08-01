@@ -2,7 +2,7 @@
     "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "nautilus-down", 
+    "description": "Finder-down", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -23,7 +23,7 @@
     "showInTrayMenu": false, 
     "matchCase": false, 
     "filter": {
-        "regex": "nautilus.Nautilus", 
+        "regex": "Thunar|nautilus", 
         "isRecursive": false
     }, 
     "type": "phrase", 

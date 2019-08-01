@@ -1,8 +1,8 @@
 {
-    "usageCount": 70, 
+    "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "home", 
+    "description": "begin-of-word", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,9 +12,9 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "<up>", 
+        "hotKey": "<left>", 
         "modifiers": [
-            "<ctrl>"
+            "<alt>"
         ]
     }, 
     "modes": [

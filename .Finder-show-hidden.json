@@ -1,8 +1,8 @@
 {
-    "usageCount": 70, 
+    "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "home", 
+    "description": "Finder-show-hidden", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,9 +12,10 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "<up>", 
+        "hotKey": ".", 
         "modifiers": [
-            "<ctrl>"
+            "<ctrl>", 
+            "<shift>"
         ]
     }, 
     "modes": [
@@ -23,7 +24,7 @@
     "showInTrayMenu": false, 
     "matchCase": false, 
     "filter": {
-        "regex": "^((?!Thunar|nautilus).)*$", 
+        "regex": "Thunar|nautilus", 
         "isRecursive": false
     }, 
     "type": "phrase", 

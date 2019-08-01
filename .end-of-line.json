@@ -2,7 +2,7 @@
     "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "nautilus-delete", 
+    "description": "end-of-line", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,7 +12,7 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "<backspace>", 
+        "hotKey": "<right>", 
         "modifiers": [
             "<ctrl>"
         ]
@@ -23,7 +23,7 @@
     "showInTrayMenu": false, 
     "matchCase": false, 
     "filter": {
-        "regex": "nautilus.Nautilus", 
+        "regex": "^((?!Thunar|nautilus).)*$", 
         "isRecursive": false
     }, 
     "type": "phrase", 
